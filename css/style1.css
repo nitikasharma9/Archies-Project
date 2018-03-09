@@ -1,0 +1,37 @@
+.top-bar{
+    background-color: #ff0000;
+        padding: 6px;
+    
+}
+.my-menu{
+    margin-top: 10px;
+    
+}
+
+.my-menu .navbar-default{
+    background: none;
+    border: none
+        
+    
+}
+.my-menu .navbar-nav .active a,.my-menu.navbar-nav.active a:hover{
+    background-color: #ff0000;
+    color: white;
+}
+
+.my-menu .navbar-nav li a:hover{
+    background-color: #ff0000;
+    color: white
+}
+
+.thumbnail {margin-bottom:6px;}
+
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:10%;
+  width:5%;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    width: 100% !important;
+    line-height: 1;
+}
