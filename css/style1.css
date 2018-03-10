@@ -24,14 +24,31 @@
     color: white
 }
 
-.thumbnail {margin-bottom:6px;}
 
-.carousel-control.left,.carousel-control.right{
-  background-image:none;
-  margin-top:10%;
-  width:5%;
+
+@media(max-width:700px)
+{
+    .my-menu .pull-right{
+        float:none !important;
+    } 
 }
-.carousel-inner>.item>a>img, .carousel-inner>.item>img {
-    width: 100% !important;
-    line-height: 1;
+.heading{
+    text-align: center;
+    padding:5px;
+    font-size: 35px;
+    font-weight: 800;
+    border-width: 3px;
+    border-bottom-style: ridge;
+    border-color: #009999;
 }
+.well:hover{
+    box-shadow: -1px 2px 18px #888888;
+    
+}
+
+.footer{
+    min-height: 100px;
+    width: 100%;
+    background-color: #666666;
+}
+
