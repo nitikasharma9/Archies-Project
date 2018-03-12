@@ -39,6 +39,7 @@ body {
     } 
 }
 .heading{
+    font-family: 'Coiny', cursive;
     text-align: center;
     padding:5px;
     font-size: 35px;
