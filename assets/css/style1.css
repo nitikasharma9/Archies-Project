@@ -2,7 +2,9 @@ body {
     background-color: #D7DBDD;
 }
 
-
+.contact{
+    font-family: 'Itim', cursive;
+}
 
 .top-bar{
     background-color: #ff0000;
